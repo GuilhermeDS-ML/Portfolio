@@ -396,7 +396,7 @@ br.clear {
 
 #portfolio .image img {
   width: 400px;
-  height: 300px;
+  height: auto;
   border-radius: 1em;
   box-shadow: var(--cardShadow);
   background-size: cover;
@@ -485,6 +485,11 @@ div > .text > h3{
 
 .tag.language {
   background-color: #20063b;
+  color: #dddedf;
+}
+
+.tag.language2 {
+  background-color: #2622f7;
   color: #dddedf;
 }
 
